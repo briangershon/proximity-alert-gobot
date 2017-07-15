@@ -22,9 +22,9 @@ Thanks to #gophercon and #gobot -- as well as #intel for providing free #tinytil
 
 * Connect up the Sound Sensor and Infrared Emission Sensor: https://github.com/hybridgroup/gobot-workshop-2017/blob/master/starterkit/README.md See source code for pins that were used.
 
-* Install InfluxDB `brew install influxdb` and create a `gobot` database.
+* Install InfluxDB `brew install influxdb` and create a `gobot` database. See InfluxDB "Getting Started".
 
-* Install Grafana `brew install grafana`
+* Install Grafana `brew install grafana`. You can then connect to InfluxDB data source and setup graphs.
 
 ## Run app and collect data
 
