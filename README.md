@@ -35,3 +35,5 @@ Thanks to #gophercon and #gobot -- as well as #intel for providing free #tinytil
     go run proximity.go /dev/tty.usbmodem1411
 
 Sound and IR data will be saved in influxdb, and then graphed via Grafana.
+
+NOTE that the sound sensor is not very sensitive. You have to whistle or do something very loud next to it. Hand clap isn't enough.
